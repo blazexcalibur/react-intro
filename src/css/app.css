@@ -1,0 +1,12 @@
+.github-user__avatar {
+    width:3em; 
+    height: auto;
+    border-radius: 100%;
+    
+}
+.github-user__info {
+    display: inline-block;
+    padding-left: 1em;
+    color: 	#6A5ACD;
+    font-weight: bold;
+}
