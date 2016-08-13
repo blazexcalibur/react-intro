@@ -4,7 +4,7 @@ var $ = require('jquery');
 var GithubProfile = React.createClass({
      propTypes: {
         username: React.PropTypes.string.isRequired
-  },
+    },
      getInitialState: function() {
         return {}
     },
@@ -27,7 +27,7 @@ var GithubProfile = React.createClass({
     },
     componentDidMount: function(){
         this.fetchData();
-        this.componentDidUpdate();
+        //this.componentDidUpdate();
     },
      render: function() {
          if (!this.state.user) {
